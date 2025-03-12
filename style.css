@@ -1,0 +1,53 @@
+img{
+    width: 30%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#message{
+    text-align: center;
+    align-items: center;
+    
+}
+article{
+    min-height: 80%;
+    display: flex;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    width: 80%;
+    margin: auto;
+}
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100%;
+    min-height: 30px;
+}
+.contener{
+    margin: 10px 0 10px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.action{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
